@@ -15,7 +15,8 @@
         );
         scanner.addListener('scan', function(content) {
             
-            alert('Escaneou o conteudo: ' + content);
+            <!--alert('Escaneou o conteudo: ' + content);-->
+            alert('Paso por Portal Radiactivo OK: Puede avanzar');
             window.open(content, "_blank");
         });
         Instascan.Camera.getCameras().then(cameras => 
